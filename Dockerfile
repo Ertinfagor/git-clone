@@ -2,8 +2,10 @@
 FROM ubuntu
 MAINTAINER Ertinfagor <abereznik@gmail.com>
 
-ARG USER #GitHub User
-ARG REPONAME # GitHub Repository name
+#GitHub User
+ARG USER
+# GitHub Repository name
+ARG REPONAME 
 
 RUN apt-get update
 RUN apt-get install -y git
